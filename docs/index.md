@@ -1,4 +1,7 @@
 <link rel="stylesheet" href="assets/css/custom.css">
+<p align="center">
+  <img src="assets/logo.png" width="180">
+</p>
 
 # Data Ingestion Security Lab
 Laboratório da Especialização em Ciência de Dados
