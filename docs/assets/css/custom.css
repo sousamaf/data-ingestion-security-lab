@@ -1,3 +1,27 @@
+@import "jekyll-theme-cayman";
+
+/* Logo centralizado e responsivo */
+.site-logo {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+.site-logo img {
+  display: inline-block;
+  width: min(40vw, 240px); /* ocupa 40% da largura da viewport, com limite de 240px */
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ajuste fino em telas maiores */
+@media (min-width: 1024px) {
+  .site-logo img { width: 280px; }
+}
+
+/* (Opcional) leve ajuste para dark mode */
+@media (prefers-color-scheme: dark) {
+  .site-logo img { filter: drop-shadow(0 0 0 rgba(0,0,0,0.2)); }
+}
+
 :root {
   --color-primary: #004AAD; /* azul UNITINS */
   --color-secondary: #008080;

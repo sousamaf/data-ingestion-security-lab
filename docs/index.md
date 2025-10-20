@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="assets/css/custom.css">
-<p align="center">
-  <img src="assets/logo.png" width="180">
+<p class="site-logo">
+  <img src="{{ '/assets/logo.png' | relative_url }}" alt="Data Ingestion Security Lab">
 </p>
 
 # Data Ingestion Security Lab
