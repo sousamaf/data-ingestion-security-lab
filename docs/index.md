@@ -5,4 +5,4 @@ Laboratório da Especialização em Ciência de Dados
 
 ## Sobre
 
-Este site contém os materiais e recursos da disciplina **Coleta e Ingestão de Dados em Segurança Pública**, abordando fundamentos, técnicas e boas práticas para aquisição, transformação e ingestão ética de dados.
+Este site contém os materiais e recursos da disciplina **Ingestão e Coleta de Dados em Segurança Pública**, abordando fundamentos, técnicas e boas práticas para aquisição, transformação e ingestão ética de dados.
