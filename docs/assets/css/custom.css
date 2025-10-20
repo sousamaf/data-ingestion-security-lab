@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #004AAD; /* azul UNITINS */
+  --color-secondary: #008080;
+  --color-text: #333333;
+}
+
+header {
+  background-color: var(--color-primary) !important;
+  color: white;
+}
