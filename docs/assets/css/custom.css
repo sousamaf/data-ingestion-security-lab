@@ -7,14 +7,14 @@
 }
 .site-logo img {
   display: inline-block;
-  width: min(40vw, 240px); /* ocupa 40% da largura da viewport, com limite de 240px */
+  width: min(40vw, 600px); /* ocupa 40% da largura da viewport, com limite de 240px */
   max-width: 100%;
   height: auto;
 }
 
 /* Ajuste fino em telas maiores */
 @media (min-width: 1024px) {
-  .site-logo img { width: 280px; }
+  .site-logo img { width: 600px; }
 }
 
 /* (Opcional) leve ajuste para dark mode */
