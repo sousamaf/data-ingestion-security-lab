@@ -1,5 +1,6 @@
 theme: jekyll-theme-cayman
 title: "Data Ingestion Security Lab"
 description: "Laboratório de Ingestão e Coleta de Dados em Segurança Pública – UNITINS"
+logo: /assets/logo.png
 show_downloads: false
 google_analytics: false
