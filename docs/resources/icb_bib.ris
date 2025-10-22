@@ -1,0 +1,170 @@
+TY  - BOOK
+TI  - Data mining: Conceitos, tecnicas, algoritmos, orientacoes e aplicacoes
+AU  - Goldschmidt, Ronaldo
+AU  - Passos, Emmanuel
+AU  - Bezerra, Eduardo
+DA  - 2015/01//
+PY  - 2015
+PB  - Elsevier Editora Ltda
+SN  - 978-85-352-7822-4
+UR  - https://app.minhabiblioteca.com.br/reader/books/9788595156395/
+L1  - files/9160/Goldschmidt2015.pdf
+ER  - 
+
+TY  - BOOK
+TI  - Designing Data-Intensive Applications
+AU  - Kleppmann, Martin
+DA  - 2017///
+PY  - 2017
+DP  - Zotero
+LA  - en
+SN  - 978-1-4493-7332-0
+L1  - files/8841/kleppmann2017.pdf
+ER  - 
+
+TY  - BOOK
+TI  - Fundamentals of Data Engineering
+AU  - Reis, Joe
+AU  - Housley, Matt
+DA  - 2022///
+PY  - 2022
+DP  - Zotero
+ET  - First
+LA  - en
+PB  - O’Reilly Media, Inc.
+SN  - 978-1-0981-0830-4
+L1  - files/8843/reis2022.pdf
+KW  - /unread
+ER  - 
+
+TY  - BOOK
+TI  - Kafka: the definitive guide: real-time data and stream processing at scale
+AU  - Shapira, Gwen
+AU  - Palino, Todd
+AU  - Sivaram, Rajini
+AU  - Petty, Krit
+CY  - Bejing Boston Farnham Sebastopol Tokyo
+DA  - 2022///
+PY  - 2022
+DP  - K10plus ISBN
+ET  - Second edition
+SP  - 457
+LA  - eng
+PB  - O'Reilly
+SN  - 978-1-4920-4308-9
+ST  - Kafka
+L1  - files/9163/shapira2022.pdf
+ER  - 
+
+TY  - BOOK
+TI  - Spark: The Definitive Guide
+AU  - Chambers, Bill
+AU  - Zaharia, Matei
+DA  - 2018///
+PY  - 2018
+DP  - Zotero
+LA  - en
+PB  - O'Reilly Media
+SN  - 978-1-4919-1221-8
+L1  - files/8900/chambers2018.pdf
+KW  - /unread
+ER  - 
+
+TY  - BOOK
+TI  - Fundamentos da Qualidade de Dados: Guia Prático Para Criar Pipelines De Dados Confiáveis
+AU  - Moses, Barr
+CY  - Rio de Janeiro, RJ
+DA  - 2023/01/18/
+PY  - 2023
+DP  - Câmara Brasileira do Livro ISBN
+LA  - pt-BR
+PB  - Alta Books
+SN  - 978-85-508-2122-1
+ST  - Fundamentos da Qualidade de Dados
+UR  - https://app.minhabiblioteca.com.br/reader/books/9788550821221/
+L1  - files/9162/moses2023.pdf
+KW  - Administração e serviços auxiliares
+KW  - /unread
+KW  - data
+KW  - Fundamentos
+KW  - Quality
+ER  - 
+
+TY  - BOOK
+TI  - Comentários à lei geral de proteção de dados: lei n. 13.709/2018, com alteração da lei n. 13.853/2019
+AU  - Cíntia Rosa Pereira de Lima
+DA  - 2019/11/07/
+PY  - 2019
+DP  - Câmara Brasileira do Livro ISBN
+LA  - pt-BR
+PB  - Almedina
+SN  - 978-85-8493-579-6
+ST  - Comentários à lei geral de proteção de dados
+UR  - https://app.minhabiblioteca.com.br/reader/books/9788584935796/
+L1  - files/9161/lima2019.pdf
+KW  - /unread
+KW  - Direito
+ER  - 
+
+TY  - GEN
+TI  - INGESTBASE: A Declarative Data Ingestion System
+AU  - Jindal, Alekh
+AU  - Quiane-Ruiz, Jorge-Arnulfo
+AU  - Madden, Samuel
+AB  - Big data applications have fast arriving data that must be quickly ingested. At the same time, they have specific needs to preprocess and transform the data before it could be put to use. The current practice is to do these preparatory transformations once the data is already ingested, however, this is expensive to run and cumbersome to manage. As a result, there is a need to push data preprocessing down to the ingestion itself. In this paper, we present a declarative data ingestion system, called INGESTBASE, to allow application developers to plan and specify their data ingestion logic in a more systematic manner. We introduce the notion of ingestions plans, analogous to query plans, and present a declarative ingestion language to help developers easily build sophisticated ingestion plans. INGESTBASE provides an extensible ingestion optimizer to rewrite and optimize ingestion plans by applying rules such as operator reordering and pipelining. Finally, the INGESTBASE runtime engine runs the optimized ingestion plan in a distributed and fault-tolerant manner. Later, at query processing time, INGESTBASE supports ingestion-aware data access and interfaces with upstream query processors, such as Hadoop MapReduce and Spark, to post- process the ingested data. We demonstrate through a number of experiments that INGESTBASE: (i) is flexible enough to express a variety of ingestion techniques, (ii) incurs a low ingestion overhead, (iii) provides efficient access to the ingested data, and (iv) has much better performance, up to 6 times, than preparing data as an afterthought, via a query processor.
+DA  - 2017/01/21/
+PY  - 2017
+DO  - 10.48550/arXiv.1701.06093
+DP  - arXiv.org
+PB  - arXiv
+ST  - INGESTBASE
+UR  - http://arxiv.org/abs/1701.06093
+Y2  - 2025/10/19/23:51:16
+L1  - files/9149/jindal2017.pdf
+L2  - files/9150/1701.html
+KW  - /unread
+KW  - Computer Science - Databases
+ER  - 
+
+TY  - GEN
+TI  - Data Pipeline Quality: Influencing Factors, Root Causes of Data-related Issues, and Processing Problem Areas for Developers
+AU  - Foidl, Harald
+AU  - Golendukhina, Valentina
+AU  - Ramler, Rudolf
+AU  - Felderer, Michael
+AB  - Data pipelines are an integral part of various modern data-driven systems. However, despite their importance, they are often unreliable and deliver poor-quality data. A critical step toward improving this situation is a solid understanding of the aspects contributing to the quality of data pipelines. Therefore, this article first introduces a taxonomy of 41 factors that influence the ability of data pipelines to provide quality data. The taxonomy is based on a multivocal literature review and validated by eight interviews with experts from the data engineering domain. Data, infrastructure, life cycle management, development & deployment, and processing were found to be the main influencing themes. Second, we investigate the root causes of data-related issues, their location in data pipelines, and the main topics of data pipeline processing issues for developers by mining GitHub projects and Stack Overflow posts. We found data-related issues to be primarily caused by incorrect data types (33%), mainly occurring in the data cleaning stage of pipelines (35%). Data integration and ingestion tasks were found to be the most asked topics of developers, accounting for nearly half (47%) of all questions. Compatibility issues were found to be a separate problem area in addition to issues corresponding to the usual data pipeline processing areas (i.e., data loading, ingestion, integration, cleaning, and transformation). These findings suggest that future research efforts should focus on analyzing compatibility and data type issues in more depth and assisting developers in data integration and ingestion tasks. The proposed taxonomy is valuable to practitioners in the context of quality assurance activities and fosters future research into data pipeline quality.
+DA  - 2023/09/13/
+PY  - 2023
+DO  - 10.48550/arXiv.2309.07067
+DP  - arXiv.org
+PB  - arXiv
+ST  - Data Pipeline Quality
+UR  - http://arxiv.org/abs/2309.07067
+Y2  - 2025/10/19/23:52:07
+L1  - files/9153/foidl2023.pdf
+L2  - files/9154/2309.html
+KW  - /unread
+KW  - Computer Science - Databases
+KW  - Computer Science - Software Engineering
+ER  - 
+
+TY  - GEN
+TI  - Efficient Data Ingestion in Cloud-based architecture: a Data Engineering Design Pattern Proposal
+AU  - Rucco, Chiara
+AU  - Longo, Antonella
+AU  - Saad, Motaz
+AB  - In today's fast-paced digital world, data has become a critical asset for enterprises across various industries. However, the exponential growth of data presents significant challenges in managing and utilizing the vast amounts of information collected. Data engineering has emerged as a vital discipline addressing these challenges by providing robust platforms for effective data management, processing, and utilization. Data Engineering Patterns (DEP) refer to standardized practices and procedures in data engineering, such as ETL (extract, transform, load) processes, data pipelining, and data streaming management. Data Engineering Design Patterns (DEDP) are best practice solutions to common problems in data engineering, involving established, tested, and optimized approaches. These include architectural decisions, data modeling techniques, and data storage and retrieval strategies. While many researchers and practitioners have identified various DEPs and proposed DEDPs, such as data mesh and lambda architecture, the challenge of high-volume data ingestion remains inadequately addressed. In this paper, we propose a data ingestion design pattern for big data in cloud architecture, incorporating both incremental and full refresh techniques. Our approach leverages a flexible, metadata-driven framework to enhance feasibility and flexibility. This allows for easy changes to the ingestion type, schema modifications, table additions, and the integration of new data sources, all with minimal effort from data engineers. Tested on the Azure cloud architecture, our experiments demonstrate that the proposed techniques significantly reduce data ingestion time. Overall, this paper advances data management practices by presenting a detailed exploration of data ingestion challenges and defining a proposal for an effective design patterns for cloud-based architectures.
+DA  - 2025/04/08/
+PY  - 2025
+DO  - 10.48550/arXiv.2503.16079
+DP  - arXiv.org
+PB  - arXiv
+ST  - Efficient Data Ingestion in Cloud-based architecture
+UR  - http://arxiv.org/abs/2503.16079
+Y2  - 2025/10/19/23:53:56
+L1  - files/9156/rucco2025.pdf
+L2  - files/9157/2503.html
+KW  - /unread
+KW  - Computer Science - Databases
+ER  - 
+
