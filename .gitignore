@@ -9,6 +9,9 @@ data/processed/*
 !data/processed/.gitkeep
 .env
 
+# MacOS
+.DS_Store
+
 # C extensions
 *.so
 
