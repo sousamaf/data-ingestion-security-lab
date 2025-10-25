@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS custodia_ingestao (
+    id_log               SERIAL PRIMARY KEY,
+    numero_processo      TEXT,
+    hash_registro_sha256 TEXT,
+    fonte                TEXT,
+    timestamp_execucao   TIMESTAMP DEFAULT NOW(),
+    operador             TEXT,
+    observacao           TEXT
+);

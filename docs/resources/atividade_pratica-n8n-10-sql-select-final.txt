@@ -1,0 +1,2 @@
+SELECT * FROM staging_datajud LIMIT 5;
+SELECT * FROM custodia_ingestao LIMIT 5;

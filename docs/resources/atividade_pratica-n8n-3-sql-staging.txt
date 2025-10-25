@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS staging_datajud (
+    id_staging        SERIAL PRIMARY KEY,
+    numero_processo   TEXT UNIQUE,
+    classe_processual TEXT,
+    orgao_julgador    TEXT,
+    data_ajuizamento  TIMESTAMP NULL,
+    grau              TEXT,
+    inserido_em       TIMESTAMP DEFAULT NOW()
+);

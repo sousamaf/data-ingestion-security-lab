@@ -1,0 +1,8 @@
+docker run -d \
+  --name pgdatajud \
+  --network labicd \
+  -e POSTGRES_PASSWORD=postgres \
+  -e POSTGRES_USER=postgres \
+  -e POSTGRES_DB=lab_datajud \
+  -p 5432:5432 \
+  postgres:16

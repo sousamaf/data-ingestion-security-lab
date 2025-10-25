@@ -1,0 +1,27 @@
+const raw = $json.data_ajuizamento || ""; // ex: "20250922161035"
+
+if (raw.length === 14) {
+  const ano   = raw.slice(0,4);
+  const mes   = raw.slice(4,6);
+  const dia   = raw.slice(6,8);
+  const hora  = raw.slice(8,10);
+  const min   = raw.slice(10,12);
+  const seg   = raw.slice(12,14);
+
+  const normalizado = `${ano}-${mes}-${dia} ${hora}:${min}:${seg}`;
+
+  return {
+    json: {
+      ...$json,
+      data_ajuizamento: normalizado
+    }
+  };
+} else {
+  // Se vier vazio, nulo, ou inesperado
+  return {
+    json: {
+      ...$json,
+      data_ajuizamento: null
+    }
+  };
+}

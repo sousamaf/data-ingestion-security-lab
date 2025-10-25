@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS existe
+FROM staging_datajud
+WHERE numero_processo = '{{$json["numero_processo"]}}';
